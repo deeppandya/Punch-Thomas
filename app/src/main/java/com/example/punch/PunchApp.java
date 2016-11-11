@@ -17,6 +17,7 @@ public class PunchApp extends Application {
 
         appContext=this;
 
+        //create job schedular
         JobManager.create(this).addJobCreator(new UserUpdateJobCreator());
 
         Common.configureSyncJob();
