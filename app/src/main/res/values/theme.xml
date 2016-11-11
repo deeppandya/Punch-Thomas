@@ -1,0 +1,7 @@
+<resources>
+    <style name="MyTheme" parent="android:Theme.Holo.Light">
+		<item name="android:windowTitleSize">150px</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>          
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

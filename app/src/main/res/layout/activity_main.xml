@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <SurfaceView
+    android:id="@+id/preview"
+    android:layout_width="2dip"
+    android:layout_height="2dip"
+  />
+  
+  <RelativeLayout
+      android:layout_width="match_parent"
+  	  android:layout_height="wrap_content">
+      <ImageView
+      	    android:id="@+id/company_logo"
+      	    android:layout_width="100dp"
+      	    android:layout_height="100dp"
+      	    android:layout_alignParentTop="true"
+      	    android:layout_centerHorizontal="true"
+      	    android:layout_marginTop="16dp"
+      	    android:src="@drawable/logo" />
+      
+      	<EditText 
+                android:id="@+id/company_code"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+              android:background="@drawable/edittext_top_bg"
+              android:singleLine="true"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:hint="Company Code"
+            android:textColorHint="#bbbbbb"
+        	android:textSize="30dp"
+        	android:gravity="center_horizontal"
+            android:layout_below="@id/company_logo"
+            android:drawableLeft="@drawable/office"/>
+      	<EditText 
+                android:id="@+id/password"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+              android:background="@drawable/edittext_top_bg"
+              android:singleLine="true"
+            android:padding="10dp"
+            android:hint="Password"
+            android:textColorHint="#bbbbbb"
+        	android:textSize="30dp"
+        	android:gravity="center_horizontal"
+            android:layout_below="@id/company_code"
+            android:drawableLeft="@drawable/key"/>
+
+      	<TextView
+        android:id="@+id/txtshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="10dp"
+        android:text="Private"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+	    <RadioGroup
+	        android:id="@+id/rdgroupshare"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/company_code"
+	        android:layout_below="@+id/password"
+	        android:layout_toRightOf="@+id/txtshare"
+	        android:background="@drawable/edittext_top_bg"
+	        android:layout_marginLeft="10dp"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/rdyes"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/txtshare"
+      	    	android:layout_centerHorizontal="true"
+	            android:textColor="#bbbbbb"
+        		android:textSize="30dp"
+	            android:text="Yes" />
+	
+	        <RadioButton
+	            android:id="@+id/rdno"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:text="No"
+        		android:textSize="30dp"
+	            android:checked="true"
+	            android:textColor="#bbbbbb" />
+	
+	    </RadioGroup>
+	    
+	    <TextView
+        android:id="@+id/txtlang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtshare"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Language"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+	    <RadioGroup
+	        android:id="@+id/rdgrouplang"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignRight="@+id/company_code"
+	        android:layout_below="@+id/txtshare"
+	       	android:layout_marginTop="20dp"
+	        android:layout_toRightOf="@+id/txtlang"
+	        android:background="@drawable/edittext_top_bg"
+	        android:layout_marginLeft="10dp"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/rdenglish"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/txtlang"
+      	    	android:layout_centerHorizontal="true"
+	            android:textColor="#bbbbbb"
+        		android:textSize="30dp"
+	            android:text="En" />
+	
+	        <RadioButton
+	            android:id="@+id/rdfrench"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:text="Fr"
+        		android:textSize="30dp"
+	            android:checked="true"
+	            android:textColor="#bbbbbb" />
+	
+	    </RadioGroup>
+	    
+	    <EditText 
+                android:id="@+id/url"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+              android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:hint="Server IP Address"
+            android:textColorHint="#bbbbbb"
+            android:singleLine="true"
+        	android:textSize="30dp"
+        	android:gravity="center_horizontal"
+            android:layout_below="@id/rdgrouplang"
+            android:drawableLeft="@drawable/earth"/>
+	    
+	    <Button 
+               android:id="@+id/btnsubmit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+               android:text="Submit"
+	        android:layout_below="@+id/url"
+            style="@style/DefaultButtonText"
+               android:background="@drawable/button_default_bg"
+           />
+      	
+  </RelativeLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+  	  android:layout_height="wrap_content">
+      	
+  </RelativeLayout>
+</LinearLayout>

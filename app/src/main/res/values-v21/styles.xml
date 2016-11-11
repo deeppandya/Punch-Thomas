@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/darkPrimaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <item name="@android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+        <item name="android:colorButtonNormal">@color/buttonColor</item>
+
+    </style>
+
+
+
+
+    <style name="AppTheme.ProgressDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/accentColor</item>
+
+    </style>
+
+    <style name="ToolBarSpinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+
+</resources>

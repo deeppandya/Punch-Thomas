@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/darkPrimaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="@android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+
+        <item name="android:colorButtonNormal">@color/buttonColor</item>
+
+
+    </style>
+
+    <style name="AppTheme.ProgressDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.Dark">
+
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="ToolBarSpinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Group" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">-1dp</item>
+        <!-- Ensures we don't get a 2 dp top stroke -->
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edittext_default_bg</item>
+    </style>
+
+    <style name="Widget.Group.Top">
+        <item name="android:background">@drawable/edittext_top_bg</item>
+    </style>
+
+    <style name="Widget.Group.Bottom">
+        <item name="android:background">@drawable/edittext_bottom_bg</item>
+    </style>
+
+    <style name="Widget.Group.Single" parent="Widget.Group.Top">
+        <item name="android:background">@drawable/edittext_single_bg</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:background">@color/lightPrimaryColor</item>
+
+    </style>
+
+    <style name="txtHintSize" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>

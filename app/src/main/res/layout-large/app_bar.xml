@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:subtitleTextColor="@color/textColor"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/CustomToolbarTheme">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="left"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Exit"
+        android:textSize="30dp"
+        android:drawablePadding="10dp"
+        android:background="#00000000"
+        android:layout_gravity="right"
+        android:drawingCacheQuality="high"
+        android:layout_marginRight="20dp"
+        android:drawableTint="@color/textColor"
+        android:drawableLeft="@drawable/ic_exit"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Reset"
+        android:textSize="30dp"
+        android:drawablePadding="10dp"
+        android:background="#00000000"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:drawingCacheQuality="high"
+        android:drawableTint="@color/textColor"
+        android:drawableLeft="@drawable/ic_reset"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Refresh"
+        android:textSize="30dp"
+        android:drawablePadding="10dp"
+        android:background="#00000000"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:drawingCacheQuality="high"
+        android:drawableTint="@color/textColor"
+        android:drawableLeft="@drawable/ic_refresh"/>
+
+    <TextView
+        android:id="@+id/txtActionMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:layout_gravity="right"
+        android:textSize="30dp"
+        android:layout_marginRight="20dp"/>
+
+</android.support.v7.widget.Toolbar>
