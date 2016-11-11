@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-job-1.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.evernote/android-job/1.0.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.evernote/android-job/1.0.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.evernote/android-job/1.0.7/3138304cbc4f1ac1acb9cc34a3fafece8699cc0c/android-job-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

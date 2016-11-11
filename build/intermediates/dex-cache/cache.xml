@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_84162a2ff0a011f48597741bf33435e88fafdcee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_d5f5836874eed0ac0042e4977eec352006c5a4aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/libs/httpmime-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="54646f004d5b4c37a5a75b1d416c59a3075204e2">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/httpmime-4.4_fbfc9aa64361f9ca6e5622a16765e9030dc941bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/com.evernote/android-job/1.0.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="955936c64d2764e23212204631cc8e310973fb3e">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/com.evernote-android-job-1.0.7_e8e70ba0ce8835bcbdc0fb15d156b57ebcd2ed4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/libs/httpclient-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6d220441ca681dddc55a189eae81a437309128b8">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/httpclient-4.4_7f5290025d061ea2dae7ec0f2351c7f68703a66c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/libs/httpcore-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b3863fd9c8a273ceed4a7fae10f40bb10a2328">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/httpcore-4.4_68d039d8fd399f4ce48f9070495934db13558fe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1_386cfc97ffa88178e981c3f83059f6038a0dd1d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/net.vrallev.android/cat/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7bdc80a2bb66fc1a08f642608b738749341eb575">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/net.vrallev.android-cat-1.0.4_0e8d3351173541a392da0a9bf42ab23be8dcccec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_ed08c225a20ab3a0b3715cbdfecff6187d62a91e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Downloads/Punch/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_d1cb82c61de4b824eb16875d8c475061d170603a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deeppandya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/deeppandya/Downloads/Punch/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_fa3efa5c6f40eca3ff2460144ef74c49789cb5d4.jar" />
+    </item>
+
+</items>
