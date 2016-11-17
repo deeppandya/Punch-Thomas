@@ -8,8 +8,20 @@
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/layout-large/app_bar.xml"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/action.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/action.xml"
+    },
+    {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/main.xml",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/layout-large/main.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/camera.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/camera.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/successmsg.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/successmsg.xml"
     },
     {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/layout-large-v4/main.xml",
@@ -24,16 +36,32 @@
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/layout-large/action.xml"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/employeecode.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/employeecode.xml"
+    },
+    {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/layout-large-v4/app_bar.xml",
         "source": "/Users/deeppandya/Downloads/Punch/app/src/main/res/layout-large/app_bar.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/app_bar.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/app_bar.xml"
     },
     {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/successmsg.xml",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/layout-large/successmsg.xml"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/password_dialog.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/password_dialog.xml"
+    },
+    {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/layout-large-v4/successmsg.xml",
         "source": "/Users/deeppandya/Downloads/Punch/app/src/main/res/layout-large/successmsg.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/layout-large-v4/main.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/layout-large/main.xml"
     },
     {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/layout-large-v4/password_dialog.xml",

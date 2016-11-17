@@ -12,8 +12,20 @@
         "source": "/Users/deeppandya/Downloads/Punch/app/src/main/res/drawable-hdpi/button_default_bg.xml"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/edit_bg.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/edit_bg.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/roundbackground.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/roundbackground.xml"
+    },
+    {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/drawable-hdpi/bg.jpg"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/edittext_top_bg.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/edittext_top_bg.xml"
     },
     {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/roundbackground.xml",
@@ -24,12 +36,24 @@
         "source": "/Users/deeppandya/Downloads/Punch/app/src/main/res/drawable-hdpi/company.jpg"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/bg.jpg"
+    },
+    {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/company.jpg",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/drawable-hdpi/company.jpg"
     },
     {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/roundbackground.xml",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/drawable-hdpi/roundbackground.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_default_bg.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/button_default_bg.xml"
+    },
+    {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/company.jpg",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/drawable-hdpi/company.jpg"
     },
     {
         "merged": "/Users/deeppandya/Downloads/Punch/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/edit_bg.xml",

@@ -4,6 +4,10 @@
         "source": "/Users/deeppandya/Downloads/Punch/app/src/main/res/menu/main.xml"
     },
     {
+        "merged": "/Users/d_pandya/Punch-Thomas/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/d_pandya/Punch-Thomas/app/src/main/res/menu/main.xml"
+    },
+    {
         "merged": "/Users/deeppandya/Punch-Thomas/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/deeppandya/Punch-Thomas/app/src/main/res/menu/main.xml"
     }

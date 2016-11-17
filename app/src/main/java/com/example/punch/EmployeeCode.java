@@ -100,6 +100,7 @@ public class EmployeeCode extends AppCompatActivity {
                                         msg = "You are refreshing the user dataset.\nAre you sure ?";
                                     }
                                     alert.setMessage(msg).setPositiveButton("Yes", dialogClickListener).setNegativeButton("No", dialogClickListener).show();
+                                    dialog.dismiss();
                                 } else {
                                     AlertDialogManager alert = new AlertDialogManager();
                                     if (Language.equals("fr")) {
@@ -107,7 +108,6 @@ public class EmployeeCode extends AppCompatActivity {
                                     } else {
                                         alert.showAlertDialog(activity, "Alert", "Password doesn't match.", false);
                                     }
-
                                 }
                             }
                         });
